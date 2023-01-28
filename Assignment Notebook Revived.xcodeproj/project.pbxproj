@@ -14,6 +14,8 @@
 		B65FB4C82984B7B0001B8D67 /* Assignment_Notebook_RevivedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FB4C72984B7B0001B8D67 /* Assignment_Notebook_RevivedTests.swift */; };
 		B65FB4D22984B7B0001B8D67 /* Assignment_Notebook_RevivedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FB4D12984B7B0001B8D67 /* Assignment_Notebook_RevivedUITests.swift */; };
 		B65FB4D42984B7B0001B8D67 /* Assignment_Notebook_RevivedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FB4D32984B7B0001B8D67 /* Assignment_Notebook_RevivedUITestsLaunchTests.swift */; };
+		B65FB4E52984B861001B8D67 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FB4E42984B861001B8D67 /* AssignmentList.swift */; };
+		B65FB4E72984B871001B8D67 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FB4E62984B871001B8D67 /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B65FB4CD2984B7B0001B8D67 /* Assignment Notebook RevivedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment Notebook RevivedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65FB4D12984B7B0001B8D67 /* Assignment_Notebook_RevivedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_Notebook_RevivedUITests.swift; sourceTree = "<group>"; };
 		B65FB4D32984B7B0001B8D67 /* Assignment_Notebook_RevivedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_Notebook_RevivedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B65FB4E42984B861001B8D67 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		B65FB4E62984B871001B8D67 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				B65FB4B62984B7AF001B8D67 /* Assignment_Notebook_RevivedApp.swift */,
 				B65FB4B82984B7AF001B8D67 /* ContentView.swift */,
+				B65FB4E42984B861001B8D67 /* AssignmentList.swift */,
+				B65FB4E62984B871001B8D67 /* AddItemView.swift */,
 				B65FB4BA2984B7B0001B8D67 /* Assets.xcassets */,
 				B65FB4BC2984B7B0001B8D67 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65FB4E52984B861001B8D67 /* AssignmentList.swift in Sources */,
 				B65FB4B92984B7AF001B8D67 /* ContentView.swift in Sources */,
 				B65FB4B72984B7AF001B8D67 /* Assignment_Notebook_RevivedApp.swift in Sources */,
+				B65FB4E72984B871001B8D67 /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
