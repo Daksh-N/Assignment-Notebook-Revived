@@ -34,10 +34,12 @@ struct ContentView: View {
             .sheet(isPresented: $showingAddItemView, content: {
                 AddItemView(assignmentlist: assignmentList)
             })
-            .navigationBarTitle("Things", displayMode: .inline)
+            .navigationBarTitle(Text("Assignments"), displayMode: .inline)
             .navigationBarItems(leading: EditButton(), trailing: Button(action: {showingAddItemView = true}) {
                 Image(systemName: "plus")
             })
+            .background(.yellow)
+            .font(Font.custom("Marker Felt", size: 20))
         }
     }
 }
@@ -48,9 +50,16 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Assignment: Identifiable {
+struct Assignment: Identifiable, Codable {
     var id = UUID()
     var course = String()
     var description = String()
     var dueDate = Date()
+}
+
+struct CustomText: View {
+    let text: String
+    var body: some View {
+        Text(text).font(Font.custom("Marker Felt", size: 36))
+    }
 }

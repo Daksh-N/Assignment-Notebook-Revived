@@ -25,7 +25,8 @@ struct AddItemView: View {
                     }
                 }
             }
-            .navigationBarTitle("Add New Assignment", displayMode: .inline)
+            .font(Font.custom("Marker Felt", size: 20))
+            .navigationBarTitle(Text("Add New Assignment").font(Font.custom("Marker Felt", size: 20)), displayMode: .inline)
             .navigationBarItems(trailing: Button("Save"){
                 if course.count > 0 && description.count > 0 {
                     let item = Assignment(id: UUID(), course: course, description: description, dueDate: dueDate)
@@ -33,6 +34,7 @@ struct AddItemView: View {
                     presentationMode.wrappedValue.dismiss()
                 }
             })
+            .preferredColorScheme(.dark)
         }
     }
 }
