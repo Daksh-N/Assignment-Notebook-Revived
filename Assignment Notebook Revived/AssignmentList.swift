@@ -9,10 +9,10 @@ import Foundation
 
 class AssignmentList: ObservableObject {
 
-    @Published var items = [ToDoItem(course: "High", description: "Take out trash", dueDate: Date()),
+    @Published var items = [ToDoItem(course: "Computer Science", description: "Finish App", dueDate: Date()),
 
-                            ToDoItem(course: "Medium", description: "Pick up clothes", dueDate: Date()),
+                            ToDoItem(course: "English", description: "Term Paper", dueDate: Date()),
 
-                            ToDoItem(course: "Low", description: "Eat a donut", dueDate: Date())]
+                            ToDoItem(course: "Math", description: "Study for Test", dueDate: Date())]
 
  }
